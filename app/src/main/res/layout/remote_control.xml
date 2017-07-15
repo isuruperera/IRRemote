@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/remote_control_id">
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/BrandsList"
+        android:background="@android:color/darker_gray"
+        android:entries="@array/brands_array">
+    </Spinner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="10dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:id="@+id/main_text_view"
+        android:background="@android:color/darker_gray"
+        android:text="Test Text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+
+                android:layout_height="55dp">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hapticFeedbackEnabled="true"
+                    android:background="@drawable/ic_volume_mute_black_24dp"
+                    android:id="@+id/btn_mute"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_weight="1">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hapticFeedbackEnabled="true"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_keyboard_arrow_up_black_24dp"
+                    android:id="@+id/btn_up"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="55dp">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hapticFeedbackEnabled="true"
+                    android:background="@drawable/ic_power_settings_new_black_24dp"
+                    android:backgroundTint="@android:color/holo_red_light"
+                    android:id="@+id/btn_on_off"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+
+                android:layout_height="55dp">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hapticFeedbackEnabled="true"
+                    android:background="@drawable/ic_keyboard_arrow_left_black_24dp"
+                    android:id="@+id/btn_left"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="55dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hapticFeedbackEnabled="true"
+                    android:background="@drawable/ic_stop_black_24dp"
+                    android:id="@+id/btn_ok"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="55dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hapticFeedbackEnabled="true"
+
+                    android:background="@drawable/ic_keyboard_arrow_right_black_24dp"
+                    android:text=""
+                    android:id="@+id/btn_right"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+
+                android:layout_height="55dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hapticFeedbackEnabled="true"
+
+                    android:background="@drawable/ic_volume_up_black_24dp"
+                    android:id="@+id/btn_vol_up"
+                     />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="55dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hapticFeedbackEnabled="true"
+
+                    android:id="@+id/btn_down"
+                    android:background="@drawable/ic_keyboard_arrow_down_black_24dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="55dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hapticFeedbackEnabled="true"
+
+                    android:background="@drawable/ic_arrow_upward_black_24dp"
+                    android:id="@+id/btn_channel_up"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+
+            android:layout_height="55dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hapticFeedbackEnabled="true"
+
+                android:background="@drawable/ic_volume_down_black_24dp"
+                android:id="@+id/btn_vol_down"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="55dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hapticFeedbackEnabled="true"
+
+                android:background="@drawable/ic_videocam_black_24dp"
+                android:id="@+id/btn_av"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="55dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hapticFeedbackEnabled="true"
+
+                android:background="@drawable/ic_arrow_downward_black_24dp"
+                android:id="@+id/btn_channel_down"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+
+            android:layout_height="50dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:hapticFeedbackEnabled="true"
+
+                android:background="@android:color/darker_gray"
+                android:textSize="25dp"
+                android:id="@+id/btn_1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="50dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:hapticFeedbackEnabled="true"
+
+                android:background="@android:color/darker_gray"
+                android:textSize="25dp"
+                android:id="@+id/btn_2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="50dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:background="@android:color/darker_gray"
+                android:textSize="25dp"
+                android:hapticFeedbackEnabled="true"
+
+                android:id="@+id/btn_3"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="50dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:hapticFeedbackEnabled="true"
+
+                android:background="@android:color/darker_gray"
+                android:textSize="25dp"
+                android:id="@+id/btn_4"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="50dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:hapticFeedbackEnabled="true"
+
+                android:background="@android:color/darker_gray"
+                android:textSize="25dp"
+                android:id="@+id/btn_5"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="50dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:background="@android:color/darker_gray"
+                android:textSize="25dp"
+                android:hapticFeedbackEnabled="true"
+
+                android:id="@+id/btn_6"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+
+            android:layout_height="50dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:background="@android:color/darker_gray"
+                android:textSize="25dp"
+                android:hapticFeedbackEnabled="true"
+
+                android:id="@+id/btn_7"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="50dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:background="@android:color/darker_gray"
+                android:textSize="25dp"
+                android:hapticFeedbackEnabled="true"
+
+                android:id="@+id/btn_8"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="50dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:hapticFeedbackEnabled="true"
+
+                android:background="@android:color/darker_gray"
+                android:textSize="25dp"
+                android:id="@+id/btn_9"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+
+            android:layout_height="50dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:background="@android:color/white"
+                android:textSize="25dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="50dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:background="@android:color/darker_gray"
+                android:textSize="25dp"
+                android:hapticFeedbackEnabled="true"
+
+                android:id="@+id/btn_0"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="50dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:background="@android:color/white"
+                android:textSize="25dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
