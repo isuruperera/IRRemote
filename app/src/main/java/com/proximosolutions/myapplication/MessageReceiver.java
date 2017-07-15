@@ -79,7 +79,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("1");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -90,7 +89,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("2");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -101,7 +99,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("3");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -112,7 +109,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("4");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -123,7 +119,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("5");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -134,7 +129,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("6");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -145,7 +139,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("7");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -156,7 +149,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("8");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -167,7 +159,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("9");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -178,7 +169,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("0");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -189,7 +179,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("UP");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -200,7 +189,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("DOWN");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -211,7 +199,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("LEFT");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -222,7 +209,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("RIGHT");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -233,7 +219,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("VOL UP");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -244,7 +229,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("VOL DOWN");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -255,7 +239,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("CHANNEL UP");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -266,7 +249,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("CHANNEL DOWN");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -277,7 +259,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("MUTE");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -288,7 +269,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("AV");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -299,7 +279,6 @@ public class MessageReceiver extends  Thread {
                                         }
                                         if(fragmentRemote.getMainText()!=null){
                                             fragmentRemote.getMainText().setText("POWER");
-                                            fragmentRemote.notifyAll();
                                             fragmentRemote.getMainText().invalidate();
                                         }
                                         break;
@@ -312,13 +291,14 @@ public class MessageReceiver extends  Thread {
                                 if(fragmentRemote.getMainText()!=null){
 
                                     fragmentRemote.getMainText().setText("ERROR VALUE TRY AGAIN");
-                                    fragmentRemote.notifyAll();
                                     fragmentRemote.getMainText().invalidate();
 
 
                                 }
                             }
+                            //fragmentRemote.notifyAll();
                             fragmentRemote.getMainText().invalidate();
+
 
                         }
 
@@ -339,9 +319,4 @@ public class MessageReceiver extends  Thread {
         }
     }
 
-
-
-    public void dummy(){
-        System.out.println("Dummy...$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
-    }
 }
